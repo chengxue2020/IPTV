@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: TG908/fork-sync@v1.6.3
       with:
-      github token: ${{ secrets.GITHUB TOKEN }}
-      owner: ZhaoUncle # fork 的上游仓库 user
+      github token: ${{ secrets.GITHUB_TOKEN }}
+      owner: TCatCloud # fork 的上游仓库 user
       head: main # fork 的上游仓库 branch
       base: main #本地仓库 branch
